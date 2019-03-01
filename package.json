@@ -1,0 +1,19 @@
+{
+  "name": "licence-verify",
+  "version": "1.0.0",
+  "description": "Verify Envato Market purchased item",
+  "main": "verify-purchase.js",
+  "dependencies": {
+    "envato-api": "^1.0.2",
+    "mysql2": "^1.6.5",
+    "restify": "^8.0.0",
+    "restify-errors": "^6.1.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node verify-purchase.js",
+    "test": "nodemon verify-purchase.js"
+  },
+  "author": "Tuhin <tuhin@codesolz.net>",
+  "license": "MIT"
+}
