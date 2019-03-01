@@ -58,7 +58,7 @@ http://localhost:3000/envato-licence-verify/{license_code}/{client_website_url}/
 
 ```
 
-# JSON Response
+### JSON Response
 
 ``` JSON
 
