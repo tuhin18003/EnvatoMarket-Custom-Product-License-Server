@@ -72,9 +72,7 @@ The MIT License (MIT). Please see [License File](LICENSE.md) for more informatio
 
 
 ### Credits
-- *Created & Supported by - [CodeSolz.com](https://codesolz.com/)*
-- *For real-time support visit our website - [CodeSolz.com](https://codesolz.com/)*
-- *For more dedicated support or feature request write to us at - [support@codesolz.net](mailto:support@codesolz.net)*
+- *Created by - [Tuhin](https://codesolz.com/)*
 
 <a href="https://codesolz.net">
   <img src="https://codesolz.net/wp-content/uploads/2016/11/logo4-hover.png" alt="codesolz.net"/>
