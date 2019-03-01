@@ -13,7 +13,7 @@ Via NPM
 $ npm install
 ```
 
-# Create a basic table where you want to store your client's info
+### Create a basic table where you want to store your client's info
 ``` sql
 CREATE TABLE `item_licence_verification` (
   `id` int(11) AUTO_INCREMENT PRIMARY KEY,
@@ -28,8 +28,10 @@ CREATE TABLE `item_licence_verification` (
 
 ```
 
-# Change your configuration from config.js file
+### Change your configuration from config.js file
 ``` 
+    EnvatoMarketPersonalApi : '54ersdrsacsWvzrHei7nfEsMlvPE848t', // get your personal token from https://build.envato.com/my-apps/
+    ItemID_1 : 18654148, //get your item id from your item url
     ENV: process.env.NODE_ENV || 'development',
     PORT: process.env.PORT || 3000,
     URL: process.env.BASE_URL || 'http://localhost:3000',
@@ -40,7 +42,7 @@ CREATE TABLE `item_licence_verification` (
         password : process.env.MYSQL_PASSWORD || '',
         port     : process.env.MYSQL_PORT || '',
         waitForConnections: true,
-        connectionLimit: 10,
+        connectionLimit: 100, // you can change mysql connection limit
         queueLimit: 0
     }
 ```
