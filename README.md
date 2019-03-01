@@ -1,8 +1,8 @@
 ## EnvatoMarket Custom Product License Server
 
 Create your own custom license server with NodeJs where you can verify purchase,
-store client's information about your item purchase and create clients account in your
-customer service portal. The script is just initialization of everything, you can easily extend it for your own requirements
+store client's information for your purchased item's and create clients account in your
+customer service portal with client's information. The script is just initialization of everything, you can easily extend it for your own requirements
 
 
 ## Install
