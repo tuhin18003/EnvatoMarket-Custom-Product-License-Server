@@ -30,8 +30,8 @@ CREATE TABLE `item_licence_verification` (
 
 ### Change your configuration from config.js file
 ``` 
-    EnvatoMarketPersonalApi : '54ersdrsacsWvzrHei7nfEsMlvPE848t', // get your personal token from https://build.envato.com/my-apps/
-    ItemID_1 : 18654148, //get your item id from your item url
+    EnvatoMarketPersonalApi : '{your personal api key here}', // get your personal token from https://build.envato.com/my-apps/
+    ItemID_1 : {your item id here}, //get your item id from your item url
     ENV: process.env.NODE_ENV || 'development',
     PORT: process.env.PORT || 3000,
     URL: process.env.BASE_URL || 'http://localhost:3000',
