@@ -53,17 +53,12 @@ CREATE TABLE `item_licence_verification` (
 Call this API from your item, this will return you JSON data
 
 ``` php
-
 http://localhost:3000/envato-licence-verify/{license_code}/{client_website_url}/{client_email_address}
-
 ```
 
 ### JSON Response
-
 ``` JSON
-
 {"sold_at":"2019-02-24T13:28:34+11:00","supported_until":"2019-08-26T03:28:34+10:00","license":"Regular License","buyer":"codezolz","purchase_count":1,"amount":"10.00","support_amount":"0.00","responseCode":100,"message":"your personal message here!","is_valid_call":true}
-
 ```
 
 ## License
